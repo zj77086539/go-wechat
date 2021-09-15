@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-redis/redis/v8"
 	"github.com/nilorg/go-wechat"
-	"github.com/nilorg/pkg/logger"
+	"github.com/zj77086539/pkg/logger"
 	"github.com/nilorg/sdk/convert"
 	"github.com/nilorg/sdk/signal"
 	"github.com/pkg/errors"

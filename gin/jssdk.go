@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	wechat "github.com/nilorg/go-wechat"
 	"github.com/nilorg/sdk/random"
+	wechat "github.com/zj77086536/go-wechat"
 )
 
 // NewHandleJssdkConfig 获取jssdk配置

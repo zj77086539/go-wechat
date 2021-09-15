@@ -2,9 +2,8 @@ package wechat
 
 import (
 	"context"
-	"log"
-
 	"github.com/go-redis/redis/v8"
+	"log"
 )
 
 // ClientFromRedis Redis客户端

@@ -3,12 +3,12 @@ package wechat
 import (
 	"encoding/json"
 	"errors"
+	simplejson "github.com/bitly/go-simplejson"
+	"github.com/nilorg/sdk/http"
 	"log"
 	"sync"
 	"time"
-
-	simplejson "github.com/bitly/go-simplejson"
-	"github.com/nilorg/sdk/http"
+	//"github.com/zj77086536/sdk/http"
 )
 
 var (

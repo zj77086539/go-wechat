@@ -1,7 +1,7 @@
 package template
 
 import (
-	wechat "github.com/nilorg/go-wechat"
+	wechat "github.com/zj77086536/go-wechat"
 )
 
 // Template 消息

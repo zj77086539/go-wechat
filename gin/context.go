@@ -2,7 +2,7 @@ package gin
 
 import (
 	ggin "github.com/gin-gonic/gin"
-	wechat "github.com/nilorg/go-wechat"
+	wechat "github.com/zj77086536/go-wechat"
 )
 
 // WechatContext include gin context and local context

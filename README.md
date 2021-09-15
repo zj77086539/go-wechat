@@ -4,11 +4,11 @@
 
 # Usage
 ```bash
-go get -u github.com/nilorg/go-wechat
+go get -u github.com/zj77086539/go-wechat
 ```
 # Import
 ```go
-import "github.com/nilorg/go-wechat"
+import "github.com/zj77086539/go-wechat"
 ```
 # Coding
 ```go
@@ -42,7 +42,7 @@ Fix [获取 access_token 时 AppSecret 错误，或者 access_token 无效。](h
 
 ### 服务器端
 
-使用[wechat-auto-refresh-server](https://github.com/nilorg/go-wechat/tree/master/auto-refresh-server)作为自动刷新服务器
+使用[wechat-auto-refresh-server](https://github.com/zj77086539/go-wechat/tree/master/auto-refresh-server)作为自动刷新服务器
 
 ### 客户端
 ```go
