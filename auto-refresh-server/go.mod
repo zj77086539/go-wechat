@@ -1,4 +1,4 @@
-module github.com/nilorg/go-wechat/auto-refresh-server
+module github.com/zj77086536/go-wechat/auto-refresh-server
 
 go 1.14
 

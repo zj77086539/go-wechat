@@ -1,4 +1,4 @@
-module github.com/nilorg/go-wechat
+module github.com/zj77086539/go-wechat
 
 go 1.13
 

@@ -99,7 +99,7 @@ func NewClient(appID, appSecret string) *Client {
 	}
 	client.refreshAccessToken() // 刷新AccessToken
 	client.refreshJsAPITicket()
-	client.startTicker()
+	//client.startTicker()
 	return client
 }
 
