@@ -6,8 +6,8 @@ import (
 )
 
 func init() {
-	AppID = "123"
-	AppSecret = "abc"
+	AppID = "wx07634c55bbebbd3b"
+	AppSecret = "c5dfcacc59cb91103facf83eabd22341"
 }
 
 func TestExecute(t *testing.T) {

@@ -8,7 +8,6 @@ import (
 	"log"
 	"sync"
 	"time"
-	//"github.com/zj77086539/sdk/http"
 )
 
 var (
@@ -99,7 +98,7 @@ func NewClient(appID, appSecret string) *Client {
 	}
 	client.refreshAccessToken() // 刷新AccessToken
 	client.refreshJsAPITicket()
-	//client.startTicker()
+	client.startTicker()
 	return client
 }
 

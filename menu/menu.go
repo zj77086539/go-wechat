@@ -17,6 +17,18 @@ func NewMenu(c wechat.Clienter) *Menu {
 	}
 }
 
+//Create 创建菜单Buttons
+func (m *Menu) CreateAllByMap(btns []interface{}) error {
+	data := map[string]interface{}{
+		"button": btns,
+	}
+	_, err := wechat.PostJSON("https://api.weixin.qq.com/cgi-bin/menu/create?access_token="+m.cleint.GetAccessToken(), data)
+	if err != nil {
+		return err
+	}
+	return nil
+}
+
 // Create 创建菜单
 func (m *Menu) Create(btns []interface{}) error {
 	for i := 0; i < len(btns); i++ {
@@ -27,7 +39,6 @@ func (m *Menu) Create(btns []interface{}) error {
 	data := map[string]interface{}{
 		"button": btns,
 	}
-
 	_, err := wechat.PostJSON("https://api.weixin.qq.com/cgi-bin/menu/create?access_token="+m.cleint.GetAccessToken(), data)
 	if err != nil {
 		return err
