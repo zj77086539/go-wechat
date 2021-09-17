@@ -9,7 +9,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/nilorg/sdk/random"
-	wechat "github.com/zj77086536/go-wechat"
+	wechat "github.com/zj77086539/go-wechat"
 )
 
 // NewHandleJssdkConfig 获取jssdk配置

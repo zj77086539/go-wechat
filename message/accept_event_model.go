@@ -3,7 +3,7 @@ package message
 import (
 	"encoding/xml"
 
-	wechat "github.com/zj77086536/go-wechat"
+	wechat "github.com/zj77086539/go-wechat"
 )
 
 // https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421140454

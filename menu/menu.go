@@ -2,7 +2,7 @@ package menu
 
 import (
 	simplejson "github.com/bitly/go-simplejson"
-	wechat "github.com/zj77086536/go-wechat"
+	wechat "github.com/zj77086539/go-wechat"
 )
 
 // Menu 菜单

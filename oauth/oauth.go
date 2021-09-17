@@ -3,8 +3,8 @@ package oauth
 import (
 	"encoding/json"
 
-	wechat "github.com/zj77086536/go-wechat"
-	"github.com/zj77086536/go-wechat/lang"
+	wechat "github.com/zj77086539/go-wechat"
+	"github.com/zj77086539/go-wechat/lang"
 )
 
 // OAuth 权限

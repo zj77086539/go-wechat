@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	wechat "github.com/zj77086536/go-wechat"
+	wechat "github.com/zj77086539/go-wechat"
 )
 
 // Material 素材

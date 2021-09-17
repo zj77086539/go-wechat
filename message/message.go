@@ -1,7 +1,7 @@
 package message
 
 import (
-	wechat "github.com/zj77086536/go-wechat"
+	wechat "github.com/zj77086539/go-wechat"
 )
 
 // Message 消息

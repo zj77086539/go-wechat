@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/url"
 
-	wechat "github.com/zj77086536/go-wechat"
+	wechat "github.com/zj77086539/go-wechat"
 )
 
 // Qrcode 二维码
